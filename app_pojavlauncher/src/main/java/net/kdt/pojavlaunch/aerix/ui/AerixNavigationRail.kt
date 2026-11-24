@@ -177,7 +177,7 @@ fun AerixNavigationRail(
                         contentAlignment = Alignment.Center
                     ) {
                         Icon(
-                            painter = painterResource(R.drawable.ic_aerix_mark),
+                            painter = painterResource(R.drawable.aura_launcher_icon),
                             contentDescription = "Aerix",
                             tint = Color.Unspecified,
                             modifier = Modifier.size(if (compactRail) 20.dp else 24.dp)
