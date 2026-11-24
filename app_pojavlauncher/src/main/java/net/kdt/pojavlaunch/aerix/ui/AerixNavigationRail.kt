@@ -192,7 +192,7 @@ fun AerixNavigationRail(
 
                 RailIconItem(R.drawable.aerix_ic_home_filled, stringResource(R.string.aerix_nav_home),
                     selectedSection == LauncherSection.HOME, activeAccent, expandedRail, compactRail) { onNavigate(LauncherSection.HOME) }
-                RailIconItem(R.drawable.aerix_ic_client_crystal, "Aerix Client",
+                RailIconItem(R.drawable.aerix_ic_client_crystal, "Aura Smp",
                     selectedSection == LauncherSection.AERIX_CLIENT, activeAccent, expandedRail, compactRail) { onNavigate(LauncherSection.AERIX_CLIENT) }
                 RailIconItem(R.drawable.aerix_ic_add, stringResource(R.string.create_instance),
                     selectedSection == LauncherSection.CREATE_INSTANCE, activeAccent, expandedRail, compactRail,
