@@ -158,7 +158,7 @@ fun AerixNavigationRail(
                         .clip(RoundedCornerShape(AerixRadii.panelSmall))
                         .bringFocusedItemIntoView()
                         .clickable(role = Role.Button) { onNavigate(LauncherSection.HOME) }
-                        .semantics { contentDescription = "Aerix Home" }
+                        .semantics { contentDescription = "Aura Home" }
                         .padding(vertical = AerixSpacing.xs),
                     horizontalAlignment = Alignment.CenterHorizontally,
                     verticalArrangement = Arrangement.spacedBy(AerixSpacing.xxs)
