@@ -85,7 +85,7 @@ import net.kdt.pojavlaunch.aerix.theme.AerixThemeManager
 enum class LauncherSection {
     HOME,
     /** Dedicated Aerix Client (Minecraft 1.16.5 Testing Edition · Liquid Crystal Clear). */
-    AERIX_CLIENT,
+    AURA_SMP,
     LIBRARY,
     SERVERS,
     /** Friends, messages and parties - the social launcher, opened from Home and the rail. */
