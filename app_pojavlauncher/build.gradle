@@ -255,7 +255,7 @@ android {
             signingConfig signingConfigs.aerixRelease
             resValue "string", "app_name", "Aura Launcher"
             resValue "string", "app_short_name", "Aura Launcher"
-            resValue "string", "aerix_app_label", "AuraLauncher"
+            resValue "string", "aura_app_label", "AuraLauncher"
             resValue 'string', 'application_package', 'net.al.aerixlauncher'
             resValue 'string', 'storageProviderAuthorities', 'net.al.aerixlauncher.scoped.gamefolder'
         }
@@ -268,9 +268,9 @@ android {
             initWith release
             signingConfig signingConfigs.customDebug // WIP, changeme
             applicationIdSuffix '.pub'
-            resValue "string", "app_name", "Aerix Launcher (Nightly)"
-            resValue "string", "app_short_name", "Aerix Launcher (Nightly)"
-            resValue "string", "aerix_app_label", "Aerix Launcher (Nightly)"
+            resValue "string", "app_name", "Aura Launcher (Nightly)"
+            resValue "string", "app_short_name", "Aura Launcher (Nightly)"
+            resValue "string", "aerix_app_label", "Aura Launcher (Nightly)"
             resValue 'string', 'application_package', 'net.al.aerixlauncher.pub'
             resValue 'string', 'storageProviderAuthorities', 'net.al.aerixlauncher.pub.scoped.gamefolder'
             matchingFallbacks += List.of("release")
