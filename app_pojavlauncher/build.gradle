@@ -233,9 +233,9 @@ android {
             initWith debug
             signingConfig signingConfigs.customDebug
             matchingFallbacks += List.of("debug")
-            resValue "string", "app_name", "Aerix Nightly"
-            resValue "string", "app_short_name", "Aerix Nightly"
-            resValue "string", "aerix_app_label", "Aerix Nightly"
+            resValue "string", "app_name", "Aura Nightly"
+            resValue "string", "app_short_name", "Aura Nightly"
+            resValue "string", "aerix_app_label", "Aura Nightly"
         }
         proguard {
             initWith debug
@@ -253,9 +253,9 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             signingConfig signingConfigs.aerixRelease
-            resValue "string", "app_name", "Aerix Launcher"
-            resValue "string", "app_short_name", "Aerix Launcher"
-            resValue "string", "aerix_app_label", "Aerix Launcher"
+            resValue "string", "app_name", "Aura Launcher"
+            resValue "string", "app_short_name", "Aura Launcher"
+            resValue "string", "aerix_app_label", "AuraLauncher"
             resValue 'string', 'application_package', 'net.al.aerixlauncher'
             resValue 'string', 'storageProviderAuthorities', 'net.al.aerixlauncher.scoped.gamefolder'
         }
