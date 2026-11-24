@@ -178,13 +178,13 @@ fun AerixNavigationRail(
                     ) {
                         Icon(
                             painter = painterResource(R.drawable.aura_launcher_icon),
-                            contentDescription = "Aerix",
+                            contentDescription = "Aura",
                             tint = Color.Unspecified,
                             modifier = Modifier.size(if (compactRail) 20.dp else 24.dp)
                         )
                     }
                     if (expandedRail) {
-                        Text(text = "AERIX", fontSize = 8.sp, letterSpacing = 1.1.sp, fontWeight = FontWeight.ExtraBold, color = AerixSurface.textSecondary)
+                        Text(text = "AURA", fontSize = 8.sp, letterSpacing = 1.1.sp, fontWeight = FontWeight.ExtraBold, color = AerixSurface.textSecondary)
                     }
                 }
 
